@@ -1,0 +1,19 @@
+[package]
+name = "ianaio-history-wasi"
+version = "0.1.0"
+description = "This is a simple example showcasing the IanaIO History on WASI"
+authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
+edition = "2021"
+license-file = "LICENSE.txt"
+readme = "README.md"
+repository = "https://github.com/ianaio/ianaio-history-wasi"
+homepage = "https://rustwasm.iana.io/examples/ianaio-history-wasi"
+documentation = "https://docs.rs/ianaio-clock/latest/ianaio-history-wasi"
+categories = ["wasm", "history-wasi", "example", "ianaio"]
+publish = true
+rust-version = "1.80"
+
+
+[dependencies]
+ianaio = { path = "../..", default-features = false, features = ["history"] }
+
