@@ -15,5 +15,5 @@ rust-version = "1.80"
 
 
 [dependencies]
-ianaio = { path = "../..", default-features = false, features = ["history"] }
+ianaio = { version = "0.1.0", path = "../..", default-features = false, features = ["history"] }
 
